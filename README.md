@@ -20,8 +20,10 @@ I'm hoping to 1. format into a plot and 2. run at a cadence on inbound posts. My
 
 **Notes on v1:**
 
-* Added an adjustment ratio to Karma, since Reddit has a karma system on their posts. Did this by analyzing data on Karma (the champion) vs karma (Reddit system) manually to develop a mentiRioton ratio. Was horrible, and data's still really inaccurate, but doesn't matter because nobody cares about the champion Karma.
-* Realizing that Twitch has a similar problem (twitch.tv -- league is regularly streamed there). Curse you Riot Games.
+* Champion name matching is hard, even with fuzzy matching.
+  * Added an adjustment ratio to Karma, since Reddit has a karma system on their posts. Did this by analyzing data on Karma (the champion) vs karma (Reddit system) manually to develop a mention ratio. The data is still really inaccurate, but doesn't matter because nobody cares about the champion Karma.
+  * Realizing that Twitch has a similar problem (twitch.tv -- league is regularly streamed there), so may have to do this with him as well.
+* Realizing that I should add more name alternatives in my name dictionary. Example: nobody types "Master Yi" -- I should be searching on Yi as well. It'd be even better if I could tighten fuzz.ratio for that name (don't want to match on things like "yee" or "yo").
 
 ## Rhyme highlighter
 
