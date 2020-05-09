@@ -24,8 +24,8 @@ I'm hoping to eventually run this script at a cadence on inbound posts. My start
 **Notes on v1:**
 
 * Champion name matching is hard, even with fuzzy matching.
-  * Added an adjustment ratio to Karma and Twitch. Karma, since Reddit has a karma system on their posts. I did this by analyzing data on Karma (the champion) vs karma (Reddit system) manually to develop a mention ratio. The data is still really inaccurate, but doesn't matter because nobody cares about the champion Karma. Twitch has a similar problem (twitch.tv -- league is regularly streamed there).
-* Realizing that I should add more name alternatives in my name dictionary. Example: nobody types "Master Yi" -- I should be searching on Yi as well. It'd be even better if I could tighten fuzz.ratio for that name (don't want to match on things like "yee" or "yo").
+  * Added an adjustment ratio to Karma and Twitch. Karma, since Reddit has a karma system on their posts. I did this by analyzing data on Karma (the champion) vs karma (Reddit system) manually to develop a mention ratio. The data is still really inaccurate, but doesn't matter because nobody cares about the champion Karma. Twitch has a similar problem (twitch.tv – league is regularly streamed there).
+* Realizing that I should add more name alternatives in my name dictionary. Example: nobody types "Master Yi" – I should be searching on Yi as well. It'd be even better if I could tighten fuzz.ratio for that name (don't want to match on things like "yee" or "yo").
 
 ## Rhyme highlighter
 
