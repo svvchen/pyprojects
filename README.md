@@ -19,7 +19,9 @@ Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the Reddit API
 **Plot:**
 ![Plotted_champion_mentions](https://github.com/svvchen/pyprojects/blob/master/reddit_api_league/champion_popularity_contest.png)
 
-I'm hoping to eventually run this script at a cadence on inbound posts. My start goal was to get data on most controversial champions in league history (apparently, Yasuo!), but would love to extend this functionality to create a "trending champions" feed.
+**To Do:**
+
+I'm hoping to run this script at a cadence on inbound posts. My start goal was to get data on most controversial champions in league history (apparently, Yasuo!), but would love to extend this functionality to create a "trending champions" feed. Also, hoping to generalize this script to search any subreddit with an input of a list of names and an output of mentions.
 
 **Notes on v2:**
 
