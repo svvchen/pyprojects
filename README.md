@@ -21,7 +21,7 @@ Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the Reddit API
 
 I'm hoping to eventually run this script at a cadence on inbound posts. My start goal was to get data on most controversial champions in league history (apparently, Yasuo!), but would love to extend this functionality to create a "trending champions" feed.
 
-**Notes on v1:**
+**Notes on v2:**
 
 * Champion name matching is hard, even with fuzzy matching.
   * Added an adjustment ratio to Karma and Twitch. Karma, since Reddit has a karma system on their posts. I did this by analyzing data on Karma (the champion) vs karma (Reddit system) manually to develop a mention ratio. The data is still really inaccurate, but doesn't matter because nobody cares about the champion Karma. Twitch has a similar problem (twitch.tv – league is regularly streamed there).
@@ -33,3 +33,5 @@ I got into poetry a while back ago. Here's my attempt at highlighting rhyme sche
 
 ### Poem higlighting results
 ![Highlighted words](https://github.com/svvchen/pyprojects/blob/master/rhyme_scheme_highlighter/Screen%20Shot%202020-05-03%20at%209.20.33%20AM.png)
+
+I'm hoping to make this more intelligent so it can start interpreting rhymes within the verse as well.
