@@ -24,7 +24,7 @@ subreddit = reddit.subreddit('leagueoflegends')
 selftext_list = []
 prep_comment_list = []
 
-for submission in subreddit.top(limit=100):
+for submission in subreddit.top(limit=150):
     initial_comment_tree = submission.comments
     initial_selftext = submission.selftext
     selftext_list.append(initial_selftext)
@@ -64,9 +64,8 @@ for word in split_filtered_list:
             if fuzz.ratio(word, name) > 90:
                 champion_counter_dictionary[champ_name_sublist_key][0] += 1
 
-print(type(champion_counter_dictionary["karma"][0]))
-
 champion_counter_dictionary["karma"][0] = round(float(champion_counter_dictionary["karma"][0]) * 0.01)
+champion_counter_dictionary["twitch"][0] = round(float(champion_counter_dictionary["twitch"][0]) * 0.01)
 
 print(sorted(champion_counter_dictionary.items(), key = lambda x: x[1], reverse = True))
 
