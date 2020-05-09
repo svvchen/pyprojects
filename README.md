@@ -8,7 +8,7 @@
 
 ## League of Legends subreddit crawler
 
-Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the Reddit API wrapper, to retrieve and analyze data from [r/leagueoflegends](https://www.reddit.com/r/leagueoflegends/). In the code, I retrieve the top 100 posts from the subreddit, then use PRAW to crawl through all comments and replies. From the text, I then fuzzy match on champion names.
+Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the Reddit API wrapper, to retrieve and analyze data from [r/leagueoflegends](https://www.reddit.com/r/leagueoflegends/). In the code, I retrieve the top 150 posts from the subreddit, then crawl/clean through all post details, comments, and replies. Then, I then fuzzy match on champion names to obtain data on how often a champion is mentioned.
 
 ### Champion results
 
@@ -19,7 +19,7 @@ Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the Reddit API
 **Plot:**
 ![Plotted_champion_mentions](https://github.com/svvchen/pyprojects/blob/master/reddit_api_league/champion_popularity_contest.png)
 
-I'm hoping to 1. format into a plot and 2. run at a cadence on inbound posts. My hope in starting this is to get a sense for the most controversial champions in league history. My guess was that Graves and Teemo would be up there, but Fiddlesticks, Twitch, and Yasuo have surprisingly snuck into the top rankings.
+I'm hoping to eventually run this script at a cadence on inbound posts. My start goal was to get data on most controversial champions in league history (apparently, Yasuo!), but would love to extend this functionality to create a "trending champions" feed.
 
 **Notes on v1:**
 
