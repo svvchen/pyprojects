@@ -18,7 +18,7 @@ Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the Reddit API
 
 I'm hoping to 1. format into a plot and 2. run at a cadence on inbound posts. My hope in starting this is to get a sense for the most controversial champions in league history. My guess was that Graves and Teemo would be up there, but Fiddlesticks, Twitch, and Yasuo have surprisingly snuck into the top rankings.
 
-Notes on v1:
+**Notes on v1:**
 
 * Added an adjustment ratio to Karma, since Reddit has a karma system on their posts. Did this by analyzing data on Karma (the champion) vs karma (Reddit system) manually to develop a mentiRioton ratio. Was horrible, and data's still really inaccurate, but doesn't matter because nobody cares about the champion Karma.
 * Realizing that Twitch has a similar problem (twitch.tv -- league is regularly streamed there). Curse you Riot Games.
