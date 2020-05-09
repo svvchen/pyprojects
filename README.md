@@ -1,6 +1,6 @@
 # pyprojects
 
-**League of Legends subreddit crawler:**
+### League of Legends subreddit crawler:
 
 Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the reddit API wrapper, to retrieve and analyze data from [r/leagueoflegends](https://www.reddit.com/r/leagueoflegends/).
 
@@ -17,7 +17,7 @@ My hope in starting this is to get a sense for the most controversial champions 
 Notes on v1: Karma is the most popular champion, but just because reddit has a “karma” system.
 
 
-**Rhyme highlighter:**
+### Rhyme highlighter:
 
 I got into poetry a while back ago. Here's my attempt at highlighting rhyme schemes, just like Genius does in their [infamous videos](https://www.youtube.com/watch?v=UlCr1Or0He8).
 
