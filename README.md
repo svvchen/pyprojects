@@ -1,5 +1,6 @@
-# pyprojects
+# :snake: pyprojects
 
+## Table of Contents
 - [League of Legends subreddit crawler](#league-of-legends-subreddit-crawler)
 - [Rhyme highlighter](#rhyme-highlighter)
 
@@ -15,7 +16,10 @@ Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the reddit API
 
 I'm hoping to 1. format into a plot and 2. run at a cadence on inbound posts. My hope in starting this is to get a sense for the most controversial champions in league history. My guess was that Graves and Teemo would be up there, but Yasuo has surprisingly snuck into the top rankings. As expected -- he's a pretty abusive champion.
 
-Notes on v1: Karma is the most popular champion, but just because reddit has a “karma” system. Trying to find a way to get around this.
+Notes on v1:
+
+* Karma is the most popular champion, but just because reddit has a “karma” system. Trying to find a way to get around this.
+* Code sucks, I know. I'll get to it.
 
 ## Rhyme highlighter
 
