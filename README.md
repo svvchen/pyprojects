@@ -3,6 +3,8 @@
 ## Table of Contents
 - [League of Legends subreddit crawler](#league-of-legends-subreddit-crawler)
   - [Champion results](champion-results)
+  - [To do](to-do)
+  - [Notes on v2](notes-on-v2)
 - [Rhyme highlighter](#rhyme-highlighter)
   - [Poem higlighting results](poem-higlighting-results)
 
@@ -19,11 +21,12 @@ Project that uses [PRAW](https://praw.readthedocs.io/en/latest/), the Reddit API
 **Plot:**
 ![Plotted_champion_mentions](https://github.com/svvchen/pyprojects/blob/master/reddit_api_league/champion_popularity_contest.png)
 
-**To Do:**
+### To Do
 
-I'm hoping to run this script at a cadence on inbound posts. My start goal was to get data on most controversial champions in league history (apparently, Yasuo!), but would love to extend this functionality to create a "trending champions" feed. Also, hoping to generalize this script to search any subreddit with an input of a list of names and an output of mentions.
+* Run this script at a cadence on inbound posts. Start goal was to get data on most controversial champions in league history (apparently, Yasuo!), but would love to extend this functionality to create a "trending champions" feed. 
+* Generalize this script to search any subreddit with an input of a list of names and an output of mentions.
 
-**Notes on v2:**
+### Notes on v2
 
 * Champion name matching is hard, even with fuzzy matching.
   * Added an adjustment ratio to Karma and Twitch. Karma, since Reddit has a karma system on their posts. I did this by analyzing data on Karma (the champion) vs karma (Reddit system) manually to develop a mention ratio. The data is still really inaccurate, but doesn't matter because nobody cares about the champion Karma. Twitch has a similar problem (twitch.tv – league is regularly streamed there).
