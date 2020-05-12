@@ -1,5 +1,7 @@
 # :snake: pyprojects
 
+Taking a break from these smaller projects to ship something a bit more structured/thought out. Ask me about it if you're curious.
+
 ## Table of Contents
 - [League of Legends subreddit crawler](#league-of-legends-subreddit-crawler)
   - [Champion results](champion-results)
