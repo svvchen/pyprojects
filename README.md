@@ -1,7 +1,5 @@
 # :snake: pyprojects
 
-Taking a break from these smaller projects to ship something a bit more structured/thought out (see [siteblocker](https://github.com/svvchen/siteblocker)).
-
 ## Table of Contents
 - [League of Legends subreddit crawler](#league-of-legends-subreddit-crawler)
   - [Champion results](champion-results)
